@@ -1,0 +1,22 @@
+const name = "Jake";
+const age = 21;
+const city = "New York";
+
+console.log(`My name is ${name}, I am ${age} years old, and I live in ${city}.`);
+
+
+function add(a,b) {
+    c = a + b;
+    return c;
+}
+
+const garce1 = 10;
+const grace2 = 20;
+const grace3 = 11;
+
+function calculateAverage(value1, value2, value3) {
+    let average = (value1 + value2 + value3) / 3;
+    return average;
+}
+
+calculateAverage(garce1, grace2, grace3);
