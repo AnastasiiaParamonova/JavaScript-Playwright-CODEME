@@ -12,11 +12,11 @@ function add(a,b) {
 
 const garce1 = 10;
 const grace2 = 20;
-const grace3 = 11;
+const grace3 = 30;
 
 function calculateAverage(value1, value2, value3) {
     let average = (value1 + value2 + value3) / 3;
     return average;
 }
 
-calculateAverage(garce1, grace2, grace3);
+console.log(`Average of ${garce1}, ${grace2}, and ${grace3} is: ${calculateAverage(garce1, grace2, grace3)}`);

@@ -9,8 +9,8 @@ const discount = 0.2;
 function calculateDiscountedPrice(basePrice, discountRate) {
     return basePrice * (1 - discountRate);
 }
-console.log(calculateDiscountedPrice(price, discount));
+console.log(`Price after discount: ${calculateDiscountedPrice(price, discount)}`);
 
 
 const calculateDiscountedPrice1 = (basePrice, discountRate) => basePrice * (1 - discountRate);
-console.log(calculateDiscountedPrice1(price, discount));
+console.log(`Price after discount: ${calculateDiscountedPrice1(price, discount)}`);
