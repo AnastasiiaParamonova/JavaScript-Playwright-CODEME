@@ -7,7 +7,7 @@
 // 2. Zmiana koloru paragrafu
 
 const paragraph = document.querySelector('p')
-paragraph.style.color = 'red';
+paragraph.style.color = 'green';
 
 // 3. Dla chętnych: pobierz element paragrafu nr 2
 // Pobierz element przycisku i uruchom na nim metodę addEventListener na zdarzenie ‚click’.
@@ -32,3 +32,6 @@ button.addEventListener('click', () => {
     secondParegraf.style.color = getRandomColor();
 }); 
 
+button.addEventListener('click', () => {
+    button.style.backgroundColor = "red";
+});
